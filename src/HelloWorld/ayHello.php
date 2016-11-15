@@ -10,7 +10,7 @@
    namespace HelloWorld;
    class SayHello {
        public static function world() {
-           return 'Hello World, Composer from Kevin!';
+           return 'Hello World, Composer from kevin021788!';
        }
 
    }
