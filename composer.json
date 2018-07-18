@@ -1,14 +1,34 @@
 {
-  "name": "kevin021788/hello-world",
-  "authors": [
-    {
-      "name": "kevin021788"
-    }
-  ],
-  "require": {},
-  "autoload": {
-    "psr-0": {
-      "HelloWorld": "src/"
-    }
-  }
+	"name": "kevin021788/hello-world",
+	"description": "hello-world",
+	"homepage": "https://github.com/kevin021788/yii2-exts-hello-world",
+	"keywords": [
+		"crypt",
+		"encrypt",
+		"decrypt"
+	],
+	"minimum-stability": "dev",
+	"authors": [ 
+		{
+			"name": "kevin zeng",
+			"email": "kevin0217@126.com",
+			"homepage": "https://github.com/kevin021788",
+			"role": "Developer"
+		}
+	],
+	"license": "MIT",
+	"require": {
+		"php": ">=5.4"
+	},
+	"autoload": {
+		"psr-4": {
+			"HelloWorld\\": "src/"
+		}
+	},
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ]
 }
